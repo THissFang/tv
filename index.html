@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+			
+	</head>
+	<body>
+		<div>
+        <div  class="header">
+            <div class="logo">
+                <img src="img/logo.png" /> 
+            </div>
+            <div class="message">
+                <i class="iconfont icon-xiaoxi  voice"></i>
+                <div class="massageText">
+                    <div id='marquee'>
+                        <p>第1段这是测试文字这是测试文字这是测试文字这是测试文字这是测试文字这是测试文字</p>
+                        <p>第2段这是测试文字这是测试文字这是测试文字这是测试文字这是测试文字这是测试文字</p>
+                        <p>第3段这是测试文字这是测试文字这是测试文字 这是测试文字这是测试文字这是测试文字</p>
+                        <p>第4段 这是测试文字这是测试文字这是测试文字这是测试文字这是测试文字这是测试文字这是测试文字</p>
+                        <p>第5段这是测试文字这是测试文字这是测试文字 这是测试文字这是测试文字这是测试文字这是测试文字</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <span><i class="iconfont  icon-search search"></i></span>
+                <span class="searchText">找找看</span>
+            </div>
+            <div>
+                <i class="iconfont icon-shezhi setting"></i>
+                <span class="settingText">设置</span>
+            </div>           
+            <div class="weather">
+                <img src="img/weater.png"/>
+            </div>
+             <div class="Data"> 
+                <p class="time"></p>
+                <p class="date"></p>
+            </div> 
+        </div>
+    </div>
+		<!--<div class="content">
+		</div>-->
+			
+		    <!--<script id="hzw" type="text/x-handlebars-template">-->
+		    	<div class="ac" style="display: block;">
+		      	<div id="div1" title="{focusable:true,nextRight:'div3',nextDown:'div2',nextUp:'bt1',nextLeft:''}" onclick="showFull()">
+		      	
+				 <video id="myvideo" width="751" height="416" loop="loop" va= 'we' autoplay="autoplay"><source src="movie.mp4"  type="video/mp4" ></video>
+				</div>
+				<div id="div2" title="{focusable:true,nextUp:'div1',nextRight:'div6',nextDown:'bt1',nextLeft:''}"><img src="img/hzw-dy.png"/></div>
+				<div id="div3" title="{focusable:true,nextUp:'div2'}"  onclick='window.location="html/hzw/hzw-1.html"'><img src="img/hzw-dt.png"/></div>
+				<div id="div4" title="{focusable:true,nextUp:'div9'}"  onclick='window.location="html/hzw/hzw-2.html"'><img src="img/hzw-bs.png"/></div>
+				<div id="div5" title="{focusable:true,nextUp:'div10',nextRight:''}"  onclick='window.location="html/hzw/hzw-3.html"'><img src="img/hzw-news.png"/></div>
+				<div id="div6" title="{focusable:true,nextUp:'div3',nextDown:'div9'}" onclick='window.location="html/hzw/hzw-4.html"'><img src="img/hzw-speak.png"/></div>
+				<div id="div7" title="{focusable:true,nextUp:'div4',nextDown:'div10'}" onclick='window.location="html/hzw/hzw-5.html"'><img src="img/hzw-sun.png"/></div>
+				<div id="div8" title="{focusable:true,nextUp:'div5',nextDown:'div11',nextRight:''}" onclick='window.location="html/hzw/hzw-6.html"'><img src="img/hzw-cw.png"/></div>
+				<div id="div9" title="{focusable:true,nextUp:'div6',nextDown:'div4'}" onclick='window.location="html/hzw/hzw-7.html"'><img src="img/hzw-dyyj.png"/></div>
+				<div id="div10"title="{focusable:true,nextUp:'div7',nextDown:'div5'}" onclick='window.location="html/hzw/hzw-8.html"'><img src="img/hzw-sh.png"/></div>
+				<div id="div11"title="{focusable:true,nextUp:'div8',nextRight:'',nextDown:'bt1'}" onclick='window.location="html/hzw/hzw-9.html"'><img src="img/hzw-sq.png"/></div>
+				</div>
+		    <!--</script>-->
+				
+		
+			
+			
+			
+			
+			<!--惠民生-->
+			<!--<script id="hms" type="text/x-handlebars-template">-->	
+				<div class="ac">
+				<div id="div12" title="{focusable:true,nextDown:'div13',nextRight:'div14',nextUp:'bt2',nextLeft:''}" onclick="showFull()">
+					<video id="myvideo" width="751" height="416" loop="loop" autoplay="autoplay"   ><source src="movie.mp4"  type="video/mp4" ></video>
+				</div>
+				<div id="div13" title="{focusable:true,nextUp:'div12',nextRight:'div17',nextLeft:'',nextDown:'div14'}"><img src="img/hms-xxms.png"/></div>
+				<div id="div14" title="{focusable:true,nextUp:'div13'}" onclick='window.location="html/hms/hms-1.html"'><img src="img/hms-jt.png"/></div>
+				<div id="div15" title="{focusable:true,nextUp:'div19'}" onclick='window.location="html/hms/hms-2.html"'><img src="img/hms-tz.png"/></div>
+				<div id="div16" title="{focusable:true,nextUp:'div19',nextRight:''}" onclick='window.location="html/hms/hms-3.html"'><img src="img/hms-dsgh.png"/></div>
+				<div id="div17" title="{focusable:true,nextLeft:'div13',nextDown:'div19',nextUp:'div14'}" onclick='window.location="html/hms/hms-4.html"'><img src="img/hms-ys.png"/></div>
+				<div id="div18" title="{focusable:true,nextDown:'div20',nextUp:'div16',nextRight:''}" onclick='window.location="html/hms/hms-5.html"'><img src="img/hms-ejt.png"/></div>
+				<div id="div19" title="{focusable:true,nextUp:'div17'}"><img src="img/hms-yh.png"/></div>
+				<div id="div20" title="{focusable:true,nextUp:'div18',nextDown:'bt2',nextRight:''}" onclick='window.location="html/hms/hms-6.html"'><img src="img/hms-qyxx.png"/></div>
+				</div>
+		    <!--</script>-->
+			
+			
+		<!--乡村游-->
+			<!--<script id="xcy" type="text/x-handlebars-template">-->
+				<div class="ac">
+				<div onclick="showFull()"  id="div21" title="{focusable:true,nextDown:'div22',nextRight:'div23',nextUp:'bt3',nextLeft:''}">
+					<video id="myvideo" width="751" height="416" loop="loop" autoplay="autoplay"><source src="movie.mp4"  type="video/mp4" ></video>
+				</div>
+				<div id="div22" title="{focusable:true,nextUp:'div21',nextRight:'div24',nextDown:'div23',nextLeft:''}"><img src="img/xcy-hj.png"/></div>
+				<div id="div23" title="{focusable:true,nextDown:'div24',nextUp:'div22'}" onclick='window.location="html/xcy/xcy-1.html"'><img src="img/xcy-xz.png"/></div>
+				<div id="div24" title="{focusable:true,nextUp:'div23',nextDown:'div25'}" onclick='window.location="html/xcy/xcy-3.html"'><img src="img/xcy-dj.png"/></div>
+				<div id="div25" title="{focusable:true,nextUp:'div24',nextRight:''}" onclick='window.location="html/xcy/xcy-2.html"'><img src="img/xcy-yly.png"/></div>
+				<div id="div26" title="{focusable:true,nextUp:'div25',nextDown:'div27',nextRight:''}" onclick='window.location="html/xcy/xcy-4.html"'><img src="img/xcy-zxc.png"/></div>
+				<div id="div27" title="{focusable:true,nextUp:'div26',nextLeft:'div24',nextDown:'bt3',nextRight:''}" onclick='window.location="html/xcy/xcy-5.html"'><img src="img/xcy-zm.png"/></div>
+				</div>
+			<!--</script>-->
+			
+			<!--惠村淘-->
+		<!--<script id="hct" type="text/x-handlebars-template">-->
+			<div class="ac">
+				<div id="div28" title="{focusable:true,nextDown:'div29',nextRight:'div30',nextUp:'bt4',nextLeft:''}"  onclick="showFull()">
+					<video id="myvideo" width="751" height="416" loop="loop" autoplay="autoplay" ><source src="movie.mp4"  type="video/mp4" ></video>
+				</div>
+				<div id="div29" title="{focusable:true,nextUp:'div28',nextRight:'div31',nextDown:'div30',nextLeft:''}" ><img src="img/hct-sale.png"/></div>
+				<div id="div30" title="{focusable:true,nextDown:'div31',nextUp:'div29'}" onclick='window.location="html/hct/hct-1.html"'><img src="img/hct-new.png"/></div>
+				<div id="div31" title="{focusable:true,nextUp:'div30',nextDown:'div32'}" onclick='window.location="html/hct/hct-4.html"'><img src="img/hct-tc.png"/></div>
+				<div id="div32" title="{focusable:true,nextUp:'div31',nextRight:''}" onclick='window.location="html/hct/hct-2.html"'><img src="img/hct-ht.png"/></div>
+				<div id="div33" title="{focusable:true,nextUp:'div32',nextDown:'div34',nextRight:''}" onclick='window.location="html/hct/hct-3.html"'><img src="img/hct-hdzx.png"/></div>
+				<div id="div34" title="{focusable:true,nextUp:'div33',nextLeft:'div31',nextDown:'bt4',nextRight:''}" onclick='window.location="html/hct/hct-5.html"'><img src="img/hct-tmh.png"/></div>
+				</div>
+		<!--</script>-->
+				
+			<!--惠文化-->
+		<!--<script id="hwh" type="text/x-handlebars-template">-->
+			<div class="ac">
+				<div id="div35"  onclick="showFull()" class="div1" title="{focusable:true,nextRight:'div37',nextDown:'div36',nextUp:'bt5',nextLeft:''}">
+					<video id="myvideo" width="751" height="416" loop="loop" autoplay="autoplay" ><source src="movie.mp4"  type="video/mp4" ></video>
+				</div>	
+				<div id="div36" title="{focusable:true,nextUp:'div35',nextRight:'div37',nextLeft:''}">
+					<img src="img/wh-sx.png"/>
+				</div>
+				<div id="div37" title="{focusable:true,nextUp:'div36'}" onclick='window.location="html/hwh/hwh-1.html"'><img src="img/wh-tsg.png"/></div>
+				<div id="div38" title="{focusable:true,nextUp:'div43',nextDown:'div41'}" onclick='window.location="html/hwh/hwh-2.html"'><img src="img/wh-jz.png"/> </div>
+				<div id="div39" title="{focusable:true,nextUp:'div44',nextRight:''}" onclick='window.location="html/hwh/hwh-3.html"'><img src="img/wh-ls.png"/></div>
+				<div id="div40" title="{focusable:true,nextUp:'div37',nextDown:'div43',nextLeft:'div36',nextRight:'div41'}" onclick='window.location="html/hwh/hwh-4.html"'><img src="img/wh-bwg.png"/></div>
+				<div id="div41" title="{focusable:true,nextUp:'div38',nextDown:'div45'}" onclick='window.location="html/hwh/hwh-5.html"'><img src="img/wh-xq.png"/></div>
+				<div id="div42" title="{focusable:true,nextUp:'div39',nextDown:'div45',nextLeft:'div41',nextRight:''}" onclick='window.location="html/hwh/hwh-6.html"'><img src="img/wh-whlt.png"/></div>
+				<div id="div43" title="{focusable:true,nextUp:'div40',nextRight:'div44',nextDown:'div38'}" onclick='window.location="html/hwh/hwh-7.html"'><img src="img/wh-whg.png"/></div>
+				<div id="div44" title="{focusable:true,nextUp:'div40',nextDown:'div38'}" onclick='window.location="html/hwh/hwh-8.html"'><img src="img/wh-fyg.png"/></div>
+				<div id="div45" title="{focusable:true,nextUp:'div42',nextLeft:'div44',nextDown:'bt5',nextRight:''}" onclick='window.location="html/hwh/hwh-9.html"'><img src="img/wh-sdb.png"/></div>
+				</div>
+			<!--</script>-->
+			
+		<!--惠教育-->
+		<!--<script id="hjy" type="text/x-handlebars-template">-->		
+			<div class="ac">
+				<div  onclick="showFull()" id="hjy-div1" title="{focusable:true,nextDown:'hjy-div2',nextRight:'hjy-div3',nextUp:'bt6',nextLeft:''}">
+					<video  id="myvideo" width="751" height="416" loop="loop" autoplay="autoplay"><source src="movie.mp4"  type="video/mp4" ></video>
+				</div>
+				<div id="hjy-div2" title="{focusable:true,nextUp:'hjy-div1',nextRight:'hjy-div4',nextDown:'hjy-div3',nextLeft:''}"><img src="img/hjy-happy.png"/></div>
+				<div id="hjy-div3" title="{focusable:true,nextDown:'hjy-div4',nextUp:'hjy-div2'}" onclick='window.location="html/hjy/hjy-1.html"'><img src="img/hjy-shxx.png"/></div>
+				<div id="hjy-div4" title="{focusable:true,nextUp:'hjy-div3',nextDown:'hjy-div5'}" onclick='window.location="html/hjy/hjy-6.html"'><img src="img/hjy-zjxq.png"/></div>
+				<div id="hjy-div5" title="{focusable:true,nextUp:'hjy-div4'}" onclick='window.location="html/hjy/hjy-2.html"'><img src="img/hjy-xxkt.png"/></div>
+				<div id="hjy-div6" title="{focusable:true,nextUp:'hjy-div4',nextRight:''}" onclick='window.location="html/hjy/hjy-3.html"'><img src="img/hjy-cgz.png"/></div>
+				<div id="hjy-div7" title="{focusable:true,nextUp:'hjy-div5',nextDown:'hjy-div9'}" onclick='window.location="html/hjy/hjy-5.html"'><img src="img/hjy-jjkt.png"/></div>
+				<div id="hjy-div8" title="{focusable:true,nextUp:'hjy-div6',nextDown:'hjy-div9',nextRight:''}" onclick='window.location="html/hjy/hjy-4.html"'><img src="img/hjy-zccd.png"/></div>
+				<div id="hjy-div9" title="{focusable:true,nextUp:'hjy-div7',nextLeft:'hjy-div4',nextDown:'bt6',nextRight:''}" onclick='window.location="html/hjy/hjy-7.html"'><img src="img/hjy-jmst.png"/></div>
+				</div>
+		<!--</script>-->
+
+		<div class="bottom">
+			<div   style="background: #6b9159;">我的电视</div>
+			<div class="dd" id="bt1" title="{focusable:true,focusUI:'tabClick',nextUp:'div2',nextLeft:'bt6'}" style="background: #a55253;" onclick="hzw()" va="hzw" in='0'>慧政务</div>
+			<div  class="dd" id="bt2" title="{focusable:true,focusUI:'tabClick',nextUp:'div13'}" style="background: #a55253;" onclick="hms()"  va="hms" in='1'>慧民生</div>
+			<div  class="dd" id="bt3" style="background: #445974;" onclick="xcy(this)" va='xcy' title="{focusable:true,focusUI:'tabClick',nextUp:'div24'}"  va="xcy" in='2'>乡村游</div>
+			<div  class="dd"  id="bt4" style="background: #496a97;" title="{focusable:true,focusUI:'tabClick',nextUp:'div31'}" onclick="hct()"  va="hct" in='3'>慧村淘</div>
+			<div class="dd" id="bt5" style="background: #bd639b;" title="{focusable:true,focusUI:'tabClick',nextUp:'div45'}" onclick="hwh()"  va="hwh" in='4'>慧文化</div>
+			<div  id="bt6"  class="dd" onpropertychange="onIeChange(event)" style="background: #617955;" title="{focusable:true,focusUI:'tabClick',nextUp:'hjy-div9',nextRight:'bt1'}" onclick="hjy()"  va="hjy" in='5'>慧教育</div>
+			
+		</div>
+		
+		
+		
+		
+	
+	</body>
+	<script src="js/AutoFocus.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery-3.2.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/handlebars-v4.0.5.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/fh.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var tab = document.getElementsByClassName('dd');
+		var ac =document.getElementsByClassName('ac');
+		window.onload=function() {
+//			var template = Handlebars.compile($("#hzw").html());  
+//			$('.content').html(template()); 
+            $('.ac').eq(0).show()
+//          $('#div1').addClass('border')
+			loadAutoFocus()
+			setInterval(time,1000)
+		}
+		function  tabClick(tab,isFocused){
+					
+		if(isFocused){
+			tab.className = "border";
+	        var va = tab.getAttribute('va')
+	        var ins = tab.getAttribute('in')
+	        $('.ac').eq(ins).show().siblings('.ac').hide()
+
+		
+		}else{
+			tab.className = "dd";
+		}
+		}
+//		
+	
+	
+	
+(function(){
+    var marquee = document.getElementById('marquee');
+    var offset=0;
+    var scrollheight =marquee.offsetHeight;
+    setInterval(function(){
+        if(offset == scrollheight){
+            offset = 0;
+        }
+        marquee.style.marginTop = "-"+offset+"px";
+        offset += 1;
+    },50);
+})();
+
+	
+	//sp
+	
+	function showFull(){
+		
+		var myvideo = document.getElementById('myvideo')
+				console.log(myvideo)
+				
+		        if(myvideo.requestFullScreen) {
+		  myvideo.requestFullScreen();
+		 }else if(myvideo.mozRequestFullScreen) { //兼容moz
+		  myvideo.mozRequestFullScreen();
+		 }else if(myvideo.webkitRequestFullScreen) { //兼容webkit
+		  myvideo.webkitRequestFullScreen();
+		 }
+		
+		}
+	//时间
+function time () {
+	Date.prototype.Format = function (fmt) { //author: meizz 
+            var o = {
+                "M+": this.getMonth() + 1, //月份 
+                "d+": this.getDate(), //日 
+                "h+": this.getHours(), //小时 
+                "m+": this.getMinutes(), //分 
+                "s+": this.getSeconds(), //秒 
+                "q+": Math.floor((this.getMonth() + 3) / 3), //季度 
+                "S": this.getMilliseconds() //毫秒 
+                    };
+            if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+            for (var k in o)
+            if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+            return fmt;
+         }
+        var dataD = new Date().Format("yyyy/MM/dd");
+        var dataTime = new Date().Format("hh:mm:ss")
+       
+        $('.time').html(dataTime)
+        $('.date').html(dataD)
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		function  xcy() {
+//			loadAutoFocus()
+            
+			var template = Handlebars.compile($("#xcy").html());  
+		    $('.content').html(template());
+		    loadAutoFocus()
+		    $(document).find('.bottom>.border').removeClass("border")
+		   
+		}
+		
+		function  hzw() {
+//			
+			var template = Handlebars.compile($("#hzw").html());  
+		    $('.content').html(template());
+		    loadAutoFocus()
+		     $(document).find('.bottom>.border').removeClass("border")
+		}
+		function  hms() {
+//			
+			var template = Handlebars.compile($("#hms").html());  
+		    $('.content').html(template());
+		    loadAutoFocus()
+		     $(document).find('.bottom>.border').removeClass("border")
+		}
+		function  hct() {
+//			
+			var template = Handlebars.compile($("#hct").html());  
+		    $('.content').html(template());
+		    loadAutoFocus()
+		     $(document).find('.bottom>.border').removeClass("border")
+		}
+		function  hjy() {
+//			
+			var template = Handlebars.compile($("#hjy").html());  
+		    $('.content').html(template());
+		    loadAutoFocus()
+		     $(document).find('.bottom>.border').removeClass("border")
+		}
+		function  hwh() {
+//			
+			var template = Handlebars.compile($("#hwh").html());  
+		    $('.content').html(template());
+		    loadAutoFocus()
+		     $(document).find('.bottom>.border').removeClass("border")
+		}
+		
+		
+		
+		
+		
+	
+		
+		
+    function loadAutoFocus() {
+    	
+ 
+        var focusHelper = loadMe();
+
+    
+      focusHelper.setKeyDownHandler(focusHelper.keyConst.KEY_OK, function(evt, oDOM){
+      	$(document).find('.border').click()
+      	
+      });
+     
+        focusHelper.setFocusHandler(onFocus);
+        focusHelper.focus({defaultFocusedId:'bt1'});
+   
+     }
+     
+     function onFocus(oDOM, isFocused) {
+       if (isFocused) {
+          oDOM.className = "border";
+       } else {
+          oDOM.className = "";
+       }
+     }
+     
+    
+	
+	</script>
+</html>
